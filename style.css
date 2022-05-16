@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    background-color: #d89ce5; 
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#titulo {
+    padding-left: 120px;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-left:800px;
+    padding-bottom:9px;
+    padding-right:120px;
+}
+
+nav a {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding: 4px 0;
+    transition: 0.7s ease-out;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+}
+
+nav a:hover, .active{ 
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#nosotros {
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-content: center;
+}
+
+#logo {
+    max-width: 300px;
+}
+
+#nosotros p{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;	
+}
+
+
+#spane{
+    color: #9b469d;
+    font-size:20px;
+}
+
+#servicios {
+    background-color: #f2f2f2;
+}
+
+#textServicios {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3.5%;
+}
+
+#container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-right: 3.5%;
+    padding-left: 3.5%;	
+}
+
+
+.servicio {
+    width: 28%;
+    text-align:center;
+}
+
+
+.servicio img{
+    width: 300px;
+    height: 200px;
+}
+
+.servicio p {
+    font-size: 20px;
+    text-align: justify;
+    margin-block-strat: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+
+#contacto{
+    background-color: #d89ce5;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items:center;
+}
+
+
+#copyright {
+    font-size: 15px;
+    color: white;
+}
+
+#media-icons {
+    font-size: 30px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  background: #d89ce5; 
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+address{
+    font-size: 25px;
+    color: white;
+}
